@@ -12,7 +12,7 @@
           one device may listen several frequencies, but not same frequency twice.
         new_frequency - see possibly frequencies below;
         filter - thing for optimization. Optional, but recommended.
-                 All filters should be consolidated in this file, see defines later.
+                 All filterss should be consolidated in this file, see defines later.
                  Device without listening filter will receive all signals (on specified frequency).
                  Device with filter will receive any signals sent without filter.
                  Device with filter will not receive any signals sent with different filter.
@@ -172,7 +172,7 @@ GLOBAL_VAR_CONST(BLUETEAM_FREQ, 1217) // blue team (CTF) frequency, coloured blu
 #define TRANSMISSION_WIRE	0
 #define TRANSMISSION_RADIO	1
 
-/* filters */
+/* filterss */
 GLOBAL_VAR_INIT(RADIO_TO_AIRALARM, "1")
 GLOBAL_VAR_INIT(RADIO_FROM_AIRALARM, "2")
 GLOBAL_VAR_INIT(RADIO_CHAT, "3") //deprecated

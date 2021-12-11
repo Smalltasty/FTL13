@@ -97,7 +97,7 @@
 	else
 		return trim(rhtml_encode(name), max_length)
 
-//Filters out undesirable characters from names
+//filterss out undesirable characters from names
 /proc/reject_bad_name(t_in, allow_numbers=0, max_length=MAX_NAME_LEN)
 	if(!t_in || length(t_in) > max_length)
 		return //Rejects the input if it is null or if it is longer then the max length allowed
