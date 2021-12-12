@@ -146,7 +146,7 @@ GLOBAL_LIST_INIT(rus_unicode_fix,null)
 	t = replacetext(t, "&#x044f;", "ÿ")
 	t = replacetext(t, "&#255;", "ÿ")
 	var/output = ""
-	var/L = lentext(t)
+	var/L = length(t)
 	for(var/i = 1 to L)
 		output += "&#[text2ascii(t,i)];"
 	return output

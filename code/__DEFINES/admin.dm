@@ -36,9 +36,9 @@
 #define R_SPAWN			4096
 #define R_TICKET		8192
 
-#if DM_VERSION > 512
+/*#if DM_VERSION > 512
 #error Remove the flag below , its been long enough
-#endif
+#endif*/
 //legacy , remove post 512, it was replaced by R_POLL
 #define R_REJUVINATE	2
 
